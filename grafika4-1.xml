@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="600px" height="600px"
+viewBox="0 0 3 2"
+
+preserveAspectRatio="xMidYMid">
+
+<defs>
+    <g id="poll">
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(0    1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(18   1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(36   1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(54   1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(72   1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(90   1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(108  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(126  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(144  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(162  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(180  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(198  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(216  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(234  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(252  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(270  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(288  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(306  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(324  1, 0.5)"/>
+    <polygon points="1, 0.5, 0.93,1 1.07, 1" fill="white" stroke="black" stroke-width="0.02" transform="rotate(342  1, 0.5)"/>
+    </g>
+</defs>
+
+        <animateTransform xlink:href="#poll" attributeName = "transform" type="rotate"
+        from = "0, 1, 0.5 " to = "360, 1, 0.5 " dur = "7s"
+        repeatCount = "indefinite" />
+
+<defs>
+    <g id="obj">
+    <use xlink:href = "#poll" transform="translate(0.28, -0.01) scale(0.3)">
+    </use>
+    <use xlink:href = "#poll" transform="translate(1.37, 0.4) scale(0.3)" />
+    <rect x="0.5" y="0.3" width="1.2" height="0.08" fill="red" transform="rotate(20, 1.1, 0.4)"/>
+    </g>
+</defs>
+
+<use xlink:href = "#obj" transform=" translate(0.2, 0) scale(0.7)"/>
+<polygon points="1.1, 0.35, 1,1 1.2,1" fill="blue" stroke="green" stroke-width="0.002" transform="translate(0.2, 0) scale(0.7)"/>
+
+<use xlink:href = "#obj" transform="translate(-0.2, -0.4) scale(0.5)"/>
+<polygon points="1.1, 0.35, 1,1 1.2,1" fill="purple" stroke="green" stroke-width="0.002" transform="translate(-0.2, -0.4) scale(0.5) "/>
+
+<use xlink:href = "#obj" transform="translate(0.8, -0.35) scale(0.4)"/>
+<polygon points="1.1, 0.35, 1,1 1.2,1" fill="green" stroke="green" stroke-width="0.002" transform="translate(0.8, -0.35) scale(0.4) "/>
+
+</svg>
